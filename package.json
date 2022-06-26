@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest --verbose test/*" 
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/Sampatkini/Assignment8/issues"
   },
-  "homepage": "https://github.com/Sampatkini/Assignment8#readme"
+  "homepage": "https://github.com/Sampatkini/Assignment8#readme",
+  "dependencies": {
+    "inquirer": "^9.0.0",
+    "jest": "^28.1.1"
+  }
 }
