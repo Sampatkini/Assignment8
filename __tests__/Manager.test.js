@@ -1,5 +1,5 @@
 // using Manager constructor 
-import Manager from '../lib/Manager';
+const Manager=require ("../lib/Manager")
 
 // creating manager object  
 test('creates an Manager object', () => {
